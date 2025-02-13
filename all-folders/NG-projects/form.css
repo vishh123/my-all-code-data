@@ -1,0 +1,29 @@
+h2 {
+  color: red;
+  text-align: center;
+}
+
+body {
+  font-style: normal;
+  text-align: center;
+  font-size: medium;
+}
+
+:placeholder-shown {
+  color: black;
+}
+
+button {
+  color: blue;
+}
+
+textarea {
+  font-style: italic;
+  text-align: center;
+  color: black;
+  background-color: lightpink;
+}
+
+select {
+  background-color: rgb(255, 192, 255);
+}

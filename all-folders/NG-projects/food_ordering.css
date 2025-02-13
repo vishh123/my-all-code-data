@@ -1,0 +1,42 @@
+h3{
+  text-align: center;
+  margin-top: 50px;
+}
+
+.main{
+  height: 500px;
+  width: 800px;
+  background-image: url("https://img.freepik.com/free-photo/people-taking-photos-food_23-2149303525.jpg?w=1380&t=st=1705491238~exp=1705491838~hmac=eb8942c53f4285232b6fbd5132b037ebbe2a2d4c0ccef5917fb041e7afcf3e2b");
+  margin-left: 250px;
+  position: fixed;
+}
+#meal{
+  height: 140px;
+  width: 800px;
+  background-color: rgb(243, 194, 130);
+  margin-top: 380px;
+  border: 0px solid black;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+p{
+  margin-left: 14px;
+  padding-top: 20px;
+  font-size: 29px;
+}
+#rest{
+  font-size: 14px;
+  margin-top: -43px;
+}
+button{
+  margin-left: 16px;
+  color: rgb(92, 92, 250);
+  border: 0px solid black;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  size: 400px;
+  font-size: 15px;
+  
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="styles.css" rel="stylesheet">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <title>Weather App</title>
+</head>
+<body>
+    <div class="video-background">
+    <video autoplay loop muted>
+        <source src="https://dm0qx8t0i9gc9.cloudfront.net/watermarks/video/H8WuRINimqur8ud/sky-and-clouds-timelapse-timelapse-videos-where-the-sun-shines-through-the-clouds-on-the-blue-sky-background-4k-clouds-movement-screen-saver-timelapse_bip60in__4a965d30539be3912c0ac4b91704f6a6__P360.mp4" type="video/mp4">
+    </video>
+    </div>
+    <div class="card">
+        <h2>Weather Dashboard</h2>
+        <form class="search"> 
+            <input type="text" id="search" placeholder="Enter your city name" spellcheck="false">
+            <button id="btn" type="button">GO</button>
+        </form>
+
+        <section>
+            <div id="weather">
+                <img id="weather-icon">
+                <h2 id="city">Raipur</h2>
+                <h3 id="temp">22</h3>
+            </div>
+            <div id="forecast">
+                <!-- Forecast data will appear here -->
+            </div>
+        </section>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

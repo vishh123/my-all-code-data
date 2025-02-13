@@ -1,0 +1,103 @@
+h3{
+  text-align: center;
+}
+.main{
+  height: 200px;
+  width: 550px;
+  background-color: rgba(250, 197, 24, 0.87);
+  margin-left: 180px;
+  margin-top: 120px;
+  
+  
+}
+h2{
+  color: rgb(255, 252, 252);
+  margin-top: 10px;
+  margin-left: 20px;
+  font-size: 30px;
+}
+#image{
+  height: 190px;
+  width: 190px;
+  margin-left: 360px;
+  margin-top: -162px; 
+}
+#mahi{
+  font-size: 20px;
+  margin-left: 13px;
+}
+.coin{
+height: 560px;
+width: 550px;
+background-color: rgb(216, 240, 232);
+margin-left: 180px;
+margin-top: -10px;
+}
+#reco{
+  height: 160px;
+  width: 500px;
+  background-color: white;
+  display: flex;
+  gap: 10px;
+  margin: 10px;
+  border-radius: 8px;
+ 
+}
+#msd{
+  height: 160px;
+  width: 160px;
+  border:0px solid black;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+
+}
+h4{
+  font-size: 20px;
+  position: relative;
+  top: -1em;
+  margin-top: 60px;
+  color: rgb(0, 255, 106);
+  
+  
+}
+#para{
+margin-top: 20px;
+font-size: 21px;
+color: 
+rgba(0, 0, 0, 0.452);
+}
+#ipl{
+  color: black;
+  
+}
+#vid{
+  margin-left: -450px;
+  font-size: 25px;
+  margin-top: 10px;
+}
+.v{
+  height: 100px;
+  width: 150px;
+  border: 0px ;
+  border-radius: 20px;
+  display:flex;
+  padding: 10px;
+}
+#wic{
+  margin-top: -15px;
+  padding: 10px;
+}
+#main{
+  display: flex;
+}
+button{
+  height: 33px;
+  width: 93px;
+  background-color: rgb(69, 176, 248);
+  border: 0px;
+  color: white;
+  margin-left: 210px;
+  font-size: 14px;
+  border-radius: 6px;
+
+}

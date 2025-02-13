@@ -1,0 +1,42 @@
+h1{
+  text-align: center;
+  font-size: 50px;
+  color:white;
+  position: relative;
+  }
+
+.main{
+  background-size: cover;
+ background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCYC6hnDIJ_dZc0ypypRpO23TUxnsDZ5rdCg&usqp=CAU");
+  width: 375px;
+  height: 630px;
+  margin: auto;
+
+}
+
+#p{
+    text-align: center;
+    color: white;
+    font-size: 15px;
+  }
+  h3{
+    color: white;
+  }
+#para{
+  color: white;
+  text-align: left;
+  font-size: 19px;
+}
+button{
+  width: 65px;
+  height: 35px;
+  background-color: rgb(250, 167, 13);
+  color: white;
+  margin-left: 45%;
+}
+a{
+  color: white;
+  margin-left: 35%;
+}
+
+  

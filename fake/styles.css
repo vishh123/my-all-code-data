@@ -1,0 +1,176 @@
+/* Reset some basic styles */
+* {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+   /* overflow: hidden; */
+    background-color: #222; /* Dark background for contrast */
+}
+
+/* Card container styling */
+.card {
+    width: 90%;
+    max-width: 440px;
+    max-height: 530px;
+    background: linear-gradient(150deg, #0f96eb, #5aa874); /* Subtle gradient for depth */
+    color: #fff;
+    margin: 15px auto 0;
+    border-radius: 20px;
+    padding: 40px 30px;
+    text-align: center;
+    /* border: 2px solid black; */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3); /* Added box shadow for a floating effect */
+    transition: all 0.3s ease; /* Smooth hover effect */
+}
+
+.card:hove {
+    transform: scale(1.05); /* Scale up the card on hover for interactivity */
+    box-shadow: 0 8px 40px rgba(0, 0, 0, 0.4); /* Increase shadow on hover */
+}
+.video-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 550px;
+    z-index: -1; /* Ensures the video stays behind other content */
+}
+
+video {
+    object-fit: cover; /* Makes sure the video covers the entire background */
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+/* Search form styling */
+.search {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px; /* Add spacing between the search bar and the weather section */
+}
+
+.search input {
+    border: 0;
+    background-color: #dfe3e3;
+    color: #555;
+    padding: 10px 25px;
+    height: 40px;
+    border-radius: 30px;
+    flex: 1;
+    margin-right: 16px;
+    font-size: 18px;
+    transition: background-color 0.3s; /* Smooth transition on focus */
+}
+
+.search input:focus {
+    background-color: #ffffff; /* Change background when input is focused */
+    outline: none; /* Remove outline on focus */
+}
+
+button {
+    /* width: 15%; */
+    padding: 10px 10px;
+    height: 40px;
+    border-radius: 50%;
+    font-weight: bold;
+    color: #555;
+    background-color: #ebfffc;
+    border: 0;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s; /* Smooth transition on hover */
+}
+
+button:hover {
+    background-color: #2f70b6; /* Change background on hover */
+    transform: scale(1.1); /* Slightly increase the button size on hover */
+    color: #fff; /* Change text color to white */
+    border: 1px #042344 solid;
+}
+
+/* Weather section styling */
+#weather {
+    padding: 20px;
+    margin-top: 10px;
+    display: none;
+    transition: all 0.3s ease-in-out;
+}
+
+#weather img {
+    margin-top: -30px;
+    width: 100px;
+    margin-bottom: -30px;
+}
+
+#weather h2,
+#weather h3 {
+    margin-top:10px;
+    font-size: 24px;
+    
+}
+
+#weather h2 {
+    /* font-size: 30px; */
+    font-weight: 700;
+}
+
+#weather h3 {
+    font-size: 16px;
+}
+
+/* Forecast container styling */
+#forecast {
+    /* margin-top:2px; */
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* margin-top: 20px; */
+}
+
+#forecast div {
+    /* margin-top:1px; */
+    border: 1px solid #acacac;
+    border-radius: 8px;
+    padding: 15px;
+    background-color: #dfe3e3;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 110px;
+    height: 110px;
+    text-align: center;
+    color: #222;
+    font-size: 11px;
+    font-weight: bold;
+    transition: transform 0.3s, background-color 0.3s;
+}
+
+/* Hover effect on forecast boxes */
+#forecast div:hover {
+    transform: translateY(-5px); /* Slight lift effect */
+    background-color: #eaf5f2; /* Light change in background on hover */
+}
+
+#forecast p {
+    margin: 5px 0;
+}
+
+/* Media Query for mobile devices */
+@media (max-width: 768px) {
+    .card {
+        width: 95%;
+        padding: 25px 20px;
+    }
+
+    .search input {
+        font-size: 16px;
+    }
+
+    #forecast div {
+        width: 140px;
+    }
+}

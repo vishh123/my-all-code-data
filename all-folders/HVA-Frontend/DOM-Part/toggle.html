@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    div {
+        padding: 20px;
+        margin: 10px;
+        border: 1px solid black;
+        cursor: pointer;
+    }
+</style>
+<body>
+    <div>div 1</div>
+    <div>div 2</div>
+    <div>div 3</div>
+    <div>div 4</div>
+    
+</body>
+
+<script>
+    document.querySelectorAll("div").forEach(div =>{
+        div.addEventListener("click", function() {
+            div.style.backgroundColor = div.style.backgroundColor === 'red' ? 'white' : 'red';
+        })
+    })
+</script>
+</html>

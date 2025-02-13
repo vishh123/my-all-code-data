@@ -1,0 +1,110 @@
+/* root files */
+:root {
+  --primary-color: rgb(44, 175, 252);
+  --btn-color: blue;
+  --font-color1: aliceblue;
+}
+
+main {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 1px solid black; */
+
+  .container {
+    width: 30%;
+    height: 600px;
+    /* border: 1px solid rgb(0, 0, 0); */
+
+    .child {
+      width: 100%;
+    }
+
+    #child1 {
+
+      height: 50px;
+      text-align: center;
+      background-color: var(--primary-color);
+      color: var(--font-color1);
+
+      /* border: 1px solid black; */
+
+      h1 {
+        font-weight: 500;
+        margin-top: 10px;
+      }
+
+    }
+
+    #child2 {
+      background-color: aquamarine;
+      height: 524px;
+      border-radius: 10px;
+      /* border: 1px solid black; */
+      margin: 25px 0px;
+
+      form {
+        padding: 20px;
+        outline: 1px solid rgba(128, 128, 128, 0.219);
+        border-radius: 6px;
+
+        div {
+          margin-bottom: 15px;
+
+          label {
+            display: block;
+            margin-bottom: 4px;
+          }
+
+          input {
+            width: 90%;
+            height: 34px;
+            padding-left: 15px;
+            outline: 1px solid rgba(128, 128, 128, 0.219);
+            border-radius: 5px;
+            border: none;
+
+          }
+
+          input:focus {
+            outline: 1px solid rgb(182, 135, 235);
+            box-shadow: 2px 2px 3px rgb(182, 135, 235), -2px 2px 3px rgb(182, 135, 235);
+          }
+
+          #add {
+            height: 60px;
+          }
+
+          button:hover {
+            cursor: pointer;
+            background-color: rgb(114, 117, 121);
+          }
+
+          button {
+            width: 95%;
+            height: 40px;
+            padding: 5px;
+            background-color: var(--btn-color);
+            border: none;
+            border-radius: 5px;
+            color: aliceblue;
+          }
+        }
+      }
+
+      p {
+        text-align: center;
+        font-size: 15px;
+      }
+
+      #Qua {
+        width: 95%;
+        height: 34px;
+        border-radius: 6px;
+        font-weight: 100;
+      }
+
+    }
+  }
+}

@@ -1,0 +1,19 @@
+h1{
+    font-size: medium;
+    color: rgb(175, 131, 175);
+}
+p{
+    font-size: small;
+    line-height: 1.6;
+}
+.about-me{
+    padding: 10px;
+    background-color: aqua;
+}
+#profile-pic{
+    width:30%;
+    height: 20rem;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+}

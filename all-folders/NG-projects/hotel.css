@@ -1,0 +1,44 @@
+h3{
+  text-align: center;
+}
+.main{
+  height: 800px;
+  width: 470px;
+  background-image: url("https://dynamic-media-cdn.tripadvisor.com/media/photo-o/22/a1/9c/80/essentia-luxury-hotel.jpg?w=700&h=-1&s=1");
+  background-repeat: no-repeat;
+  position: absolute;
+}
+#rate{
+  height: 150px;
+  width: 400px;
+  background-color: rgba(0, 0, 0, 0.918);
+  margin-left: 40px;
+  margin-top: 390px;
+  border-radius: 17px;
+  border: 1px solid black;
+}
+h2{
+  color: white;
+  padding: 12px;
+  margin-left: 9px;
+}
+p{
+  color: rgba(255, 255, 255, 0.822);
+  margin-left:20px ;
+  margin-top: -25px;
+}
+h1{
+  color: white;
+  font-size: 21px;
+  margin-left: 20px;
+  margin-top: -9px;
+}
+button{
+  height: 42px;
+  width: 130px;
+  margin-left: 170px;
+  margin-top: 20px;
+  border-radius: 8px;
+  border: 0px;
+  font-size: 12px;
+}

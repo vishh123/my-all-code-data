@@ -1,0 +1,64 @@
+.container {
+    border: 6px solid black;
+}
+
+.row {
+    border: 3px solid rgb(255, 0, 0);
+}
+
+.col,
+.col-1,
+.col-2,
+.col-3,
+.col-4,
+.col-5,
+.col-6,
+.col-7,
+.col-8,
+.col-9,
+.col-10,
+.col-11,
+.col-12 {
+    border: 2px solid rgb(81, 255, 0);
+}
+
+body {
+    /* background-color: grey; */
+}
+
+#header {
+    background-color: orange;
+    padding: 10px 0 10px 10px;
+}
+
+#menu {
+    background-color: pink;
+    padding: 3px 0;
+}
+
+#menu ul {
+    list-style: none;
+    margin: 0;
+}
+
+#menu ul li {
+    display: inline-block;
+}
+
+#content {
+    background-color: aliceblue;
+}
+
+#sidebar {
+    background-color: lightblue;
+}
+
+#footer {
+    background-color: orange;
+}
+.col-sm-4{
+    border: 2px solid rgb(238, 255, 0);
+}
+.col-sm-3{
+    border: 2px solid aqua;
+}

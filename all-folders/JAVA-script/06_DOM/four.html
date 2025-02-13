@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+</head>
+<body style="background-color: black; color: white;">
+    <ul class="language">
+        <li>Javascript</li>
+    </ul>
+</body>
+<script>
+    function  addLangu(LangName){
+        const  li = document.createElement("li")
+        li.innerText = `${LangName}`
+        document.querySelector(".language").appendChild(li)
+
+    }
+    addLangu("Python")
+
+    function  optiLangu(LangName){
+        const  li = document.createElement("li")
+        li.appendChild(document.createTextNode(LangName))
+        document.querySelector(".language").appendChild(li)
+
+    }
+    optiLangu("ruby")
+
+    // EDIT
+    const secondLang = document.querySelector("li:nth-child(2)")
+    console.log(secondLang);
+    // secondLang.innerHTML="Mojo"
+
+    const newLi = document.createElement("li")
+    newLi.textContent = "angular"
+    secondLang.replaceWith(newLi)
+
+    // REMOVE
+    const lastlang = document.querySelector("li:last-child")
+    lastlang.remove()
+
+    
+</script>
+</html>

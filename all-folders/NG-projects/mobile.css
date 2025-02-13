@@ -1,0 +1,48 @@
+h4{
+  text-align: center;
+}
+#html{
+  text-align: center;
+  font-size: 15px;
+ 
+}
+#css{
+  text-align: center;
+  margin-right: 52%;
+}
+.main{
+  height: 700px;
+  width: 400px;
+  margin: 90px;
+  border: 1px solid black;
+  margin-top: 20px;
+}
+img{
+  height: 300px;
+  width: 400px;
+  border: 1px solid black;
+  
+ }
+h3{
+  margin-left: 20px;
+  font-size: 25px;
+}
+body{
+  border: 1px solid black;
+}
+#list{
+font-weight: lighter;
+font-size:15px;
+margin-left: 2px;
+}
+button{
+  margin-left: 130px;
+  background-color: rgb(104, 161, 236);
+  color: white;
+  height: 35px;
+  width: 70px;
+  font-size: 13px;
+}
+#note{
+  margin-left: 85px;
+}

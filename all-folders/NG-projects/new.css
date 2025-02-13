@@ -1,0 +1,42 @@
+.main{
+  height: 600px;
+  width: 500px;
+  background-image: url("https://cdn.pixabay.com/photo/2016/02/01/00/56/news-1172463_640.jpg");
+  position: absolute;
+}
+h2{
+  text-align: center;
+}
+#coin{
+  height: 600px;
+  width: 500px;
+  background-color: rgb(255, 253, 253);
+  border: 0px solid black;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  margin-top: 350px;
+}
+h4{
+  padding: 20px;
+  color: rgba(36, 35, 35, 0.582);
+}
+p{
+  font-size: 28px;
+  margin-left: 18px;
+  margin-top: -25px;
+  font-style: initial;
+}
+#para{
+  font-size: 17px;
+  margin-top: -10px;
+  color: rgba(0, 0, 0, 0.479);
+}
+button{
+  height: 40px;
+  width: 120px;
+  background-color: rgb(97, 94, 94);
+  color: white;
+  border-radius: 7px;
+  border: 0px ;
+  margin-left: 20px
+}

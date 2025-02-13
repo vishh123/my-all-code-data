@@ -1,0 +1,16 @@
+.product-card p {
+    background-color: aqua;
+    font-size: medium;
+    line-height: 1.1;
+}
+[type="button"]{
+    background-color:deepskyblue;
+    padding: 5px;
+    border-radius: 5px;
+}
+li{
+    background-color: aliceblue;
+}
+li:hover{
+    background-color:rgb(183, 221, 255);
+}

@@ -1,0 +1,31 @@
+h1{
+    color: cornflowerblue;
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+}
+body{
+    background-color: lightsteelblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h2{
+    font-size: 28px;
+    font-weight: bold; 
+    text-align: left;
+}
+p{
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+blockquote{
+    font-style: italic;
+}
+
+h1,h2{
+    text-decoration: underline;
+}
+.post-content{
+    background-color: lightcyan;
+    padding: 10px;
+}

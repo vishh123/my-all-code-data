@@ -1,0 +1,25 @@
+body{
+    background-color: gray;
+}
+.container{
+    width: 20%;
+    margin-top: 5%;
+    margin-left: 40%;
+    border: 1px solid;
+    border-radius: 10px;
+}
+button{
+    padding: 12px 15px;
+    font-size: 16px;
+    border-radius: 5px;
+    margin-left: 80px;
+}
+#results{
+    color: aliceblue;
+    font-size: 20px;
+    margin-left: 120px;
+}
+input{
+    padding: 8px 10px;
+    border-radius: 10px;
+}
