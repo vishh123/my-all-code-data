@@ -4,15 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="toggle.css">
 </head>
-<style>
-    div {
-        padding: 20px;
-        margin: 10px;
-        border: 1px solid black;
-        cursor: pointer;
-    }
-</style>
+
 <body>
     <div>div 1</div>
     <div>div 2</div>
@@ -21,11 +15,5 @@
     
 </body>
 
-<script>
-    document.querySelectorAll("div").forEach(div =>{
-        div.addEventListener("click", function() {
-            div.style.backgroundColor = div.style.backgroundColor === 'red' ? 'white' : 'red';
-        })
-    })
-</script>
+<script src="toggle.js"></script>
 </html>
